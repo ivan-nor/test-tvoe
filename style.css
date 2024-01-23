@@ -1,0 +1,137 @@
+:root {
+	--main-black: #09090c;
+	--main-white: #fff;
+	--main-green: #52c04b;
+	--main-blue: #125bec;
+}
+
+body {
+	background: var(--main-black);
+	color: var(--main-white);
+	display: flex;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 20px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	list-style: none;
+	padding: 0;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.news {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.cover {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 90%;
+	border: 1px solid var(--main-green);
+	background: url("./src/images/cover-background.png") right / auto;
+}
+
+.cover-image {
+	width: 576px;
+	height: 228px;
+}
+
+.film-card {
+	border: 1px solid var(--main-blue);
+	background: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.film-card > img {
+	width: 100%;
+	height: 100%;
+}
+
+.range-card {
+	display: flex;
+	align-items: center;
+}
+
+.range-symbol {
+	-webkit-text-stroke-width: 4;
+	-webkit-text-stroke-color: #000;
+	font-family: Archivo;
+	font-size: 100px;
+	font-style: italic;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.cover-buttons {
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.button {
+	border-radius: 16px;
+	background: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
+	/* bg blur 20 */
+	backdrop-filter: blur(10px);
+	height: 80px;
+	padding: 24px 32px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex: 1 0 0;
+}
+
+.button-title {
+	color: var(--Main-White, #FFF);
+	text-align: center;
+	font-family: "TT Norms Pro";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.active-button {
+	background: var(--Gradient-Accent, linear-gradient(90deg, #6A11CB 0%, #2575FC 100%));
+}
