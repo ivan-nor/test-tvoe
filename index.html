@@ -8,8 +8,11 @@
 </head>
 <body>
   <header class="">
+    <div class="logo">
+
+    </div>
+    <!-- <img src="src/icons/logo.svg" alt=""> -->
     <nav class="">
-      <img src="src/icons/logo.svg" alt="">
       <ul class="">
         <li class="icon">
           <img src="src/icons/search.svg" />
@@ -37,64 +40,62 @@
   </header>
 
   <main class="content">
-    <div class="cover">
-      <img class="cover-image" src="src/images/cover-title.png" />
-      <div class="cover-title">
-        <p class="cover-description">
-          Неувядающий авантюрист и пытливый археолог-исследователь по‑прежнему
-          в седле.
+    <div class="hero">
+      <div class="hero-description">
+        <img class="hero-image" src="src/images/cover-title.png" />
+        <p class="hero-title">
+          Неувядающий авантюрист и пытливый археолог-исследователь по‑прежнему в седле.
         </p>
-      </div>
-        <div class="cover-buttons">
-          <div class="button active-button">
-            <div class="button-title">Смотреть</div>
-          </div>
-          <div class="button">
-            <div class="button-title">О фильме</div>
-          </div>
+        <div class="hero-buttons">
+          <button class="gradient">Смотреть</button>
+          <button class="button-secondary">О фильме</button>
       </div>
     </div>
+  </div>
 
-    <div class="news">
+    <div class="carousel-news">
       <div class="news-title">НОВИНКИ</div>
       <div class="card-container">
         <div class="film-card">
-          <img class="cover-image" src="src/images/film-1.png" />
-          <div class="film-card-title">СИНИЙ ЖУК</div>
+          <div class="card-wrapper">
+            <p class="rating-label gradient">8,8</p>
+            <img class="cover-image" src="src/images/film-1.png" />
+            <p class="film-card-title">СИНИЙ ЖУК</p>
+          </div>
         </div>
         <div class="film-card">
+          <p class="rating-label gradient">7,0</p>
           <img class="cover-image" src="src/images/film-2.png" />
           <div class="film-card-title">Домашняя Игра</div>
         </div>
         <div class="film-card">
+          <p class="rating-label gradient">5,2</p>
           <img class="cover-image" src="src/images/film-3.png" />
           <div class="film-card-title">СИНИЙ ЖУК</div>
         </div>
         <div class="film-card">
-          <img class="cover-image" src="src/images/film-4.png" />
+          <div class="rating-label gradient">2,4</div>
+          <!-- <img class="cover-image" src="src/images/film-4.png" /> -->
           <div class="film-card-title">СИНИЙ ЖУК</div>
         </div>
       </div>
     </div>
     
-    <div class="range">
-      <div class="range-title">TOP-10 просмотров</div>
+    <div class="rating-carousel">
+      <div class="rating-title">TOP-10 просмотров</div>
       <div class="card-container">
-        <div class="range-card">
-          <div class="range-symbol">1</div>
-          <div class="film-card">
+        <div class="rating-card">
+          <div class="film-card" data-item="1">
             <img class="cover-image" src="src/images/range-1.png" />
           </div>
         </div>
         <div class="range-card">
-          <div class="range-symbol">2</div>
-          <div class="film-card">
+          <div class="film-card" data-item="2">
             <img class="cover-image" src="src/images/range-2.png" />
           </div>
         </div>
         <div class="range-card">
-          <div class="range-symbol">3</div>
-          <div class="film-card">
+          <div class="film-card" data-item="3">
             <img class="cover-image" src="src/images/range-3.png" />
           </div>
         </div>
