@@ -13,6 +13,7 @@
 @font-face {
 	font-family: Archivo;
 	src: url("src/fonts/Archivo-Italic.ttf");
+	/* font-style: italic; */
 }
 
 :root {
@@ -32,8 +33,11 @@ body {
 	color: var(--main-white);
 
 	display: flex;
+	
 
-	margin: 0 0 203px;
+	margin: 0 auto 203px;
+
+	width: 1920px;
 
 	font-family: "TT Norms Pro", sans-serif;
 }
@@ -258,6 +262,20 @@ button {
 
 .news-title::before {
 	content: attr(data-item) " ";
+  
+	background: linear-gradient(135deg, #6A11CB, #2575FC);
+  -webkit-background-clip: text;
+	background-clip: text;
+  -webkit-text-stroke: 10px transparent;
+
+	font-family: "Archivo", sans-serif;
+  color: var(--main-background);
+
+	letter-spacing: 0.15em;
+
+	font-style: italic;
+	/* font-weight: 900; */
+	font-size: 52px;
 }
 
 .range-card {
@@ -274,11 +292,24 @@ button {
 	content: attr(data-item);
 
 	position: relative;
-	left: 70px;
+	left: 127px;
 	z-index: -5;
 
 	font-family: var(--second-family);
 	font-style: italic;
 	font-weight: 900;
 	font-size: 360px;
+
+	background: linear-gradient(135deg, #6A11CB, #2575FC);
+  -webkit-background-clip: text;
+	background-clip: text;
+  -webkit-text-stroke: 10px transparent;
+
+	/* font-family: "Archivo", sans-serif; */
+  color: var(--main-background);
+
+	letter-spacing: 0.15em;
+
+	font-style: italic;
+	/* font-weight: 900; */
 }
