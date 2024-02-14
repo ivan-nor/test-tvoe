@@ -1,3 +1,7 @@
+@import url("fonts.css");
+@import url("variables.css");
+@import url("buttons.css");
+
 body {
 	background-color: var(--main-background);
 	color: var(--main-white);

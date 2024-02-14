@@ -1,0 +1,13 @@
+:root {
+	--main-background: #09090c;
+	--main-white: rgb(255, 255, 255);
+	--main-green: #52c04b;
+	--main-blue: #125bec;
+
+	--gradient: linear-gradient(90deg,#6A11CB, #2575FC);
+
+	--second-family: "Archivo", sans-serif;
+
+	/* --card-height: 597px;
+	--card-width: 398px; */
+}
