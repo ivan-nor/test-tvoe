@@ -7,12 +7,9 @@
   <title>TVOE TEST</title>
 </head>
 <body>
-  <header class="">
-    <div class="logo">
-
-    </div>
-    <!-- <img src="src/icons/logo.svg" alt=""> -->
-    <nav class="">
+  <header class="header">
+    <div class="logo"></div>
+    <nav class="navigation">
       <ul class="">
         <li class="icon">
           <img src="src/icons/search.svg" />
@@ -33,28 +30,26 @@
           <img src="src/icons/profile.svg" />
         </li>
       </ul>
-      <div class="icon">
+      <div class="icon link-up">
         <img src="src/icons/arrow.svg" alt="">
       </div>
     </nav>
   </header>
 
-  <main class="content">
-    <div class="hero">
-      <div class="hero-description">
-        <img class="hero-image" src="src/images/cover-title.png" />
-        <p class="hero-title">
-          Неувядающий авантюрист и пытливый археолог-исследователь по‑прежнему в седле.
-        </p>
-        <div class="hero-buttons">
-          <button class="button gradient">Смотреть</button>
-          <button class="button button-secondary">О фильме</button>
+  <main class="container">
+    <div class="banner">
+      <img class="banner-image" src="src/images/cover-title.png" />
+      <p class="banner-title">
+        Неувядающий авантюрист и пытливый археолог-исследователь по‑прежнему в седле.
+      </p>
+      <div class="banner-buttons">
+        <button class="btn gradient">Смотреть</button>
+        <button class="btn btn-secondary">О фильме</button>
       </div>
-    </div>
   </div>
 
-    <div class="carousel-news">
-      <div class="news-title">НОВИНКИ</div>
+    <div class="carousel">
+      <div class="carousel-title uppercase">новинки</div>
       <div class="card-container">
         <div class="film-card">
           <p class="rating-label gradient">10</p>
@@ -84,8 +79,8 @@
       </div>
     </div>
     
-    <div class="rating-carousel">
-      <span class="news-title" data-item="ТОП-10">просмотров за неделю</span>
+    <div class="carousel">
+      <span class="carousel-title" data-item="ТОП-10">просмотров за неделю</span>
       <div class="card-container">
         <div class="range-card"  data-item="1">
           <div class="film-card">
