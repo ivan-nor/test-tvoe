@@ -1,6 +1,9 @@
-.button {
+.btn {
+	display: inline;
+
 	width: 243px;
 	height: 80px;
+	/* padding: 1px 10px; */
 
 	border: 0;
 	border-radius: 16px;
@@ -9,7 +12,7 @@
 	color: var(--main-white);
 }
 
-.button-secondary {
+.btn-secondary {
 	background-color: rgba(255 255 255 / 0.2);
 
 	color: var(--main-white);

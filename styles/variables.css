@@ -4,9 +4,13 @@
 	--main-green: #52c04b;
 	--main-blue: #125bec;
 
-	--gradient: linear-gradient(90deg,#6A11CB, #2575FC);
+	--gradient: linear-gradient(#6A11CB, #2575FC);
+	--gradient-90: linear-gradient(90deg,#6A11CB, #2575FC);
+	--gradient-135: linear-gradient(135deg,#6A11CB, #2575FC);
 
-	--second-family: "Archivo", sans-serif;
+	--second-font-family: "Archivo", sans-serif;
+
+	--header-left-padding: calc(50vw - (1920px / 2) + 80px);
 
 	/* --card-height: 597px;
 	--card-width: 398px; */
